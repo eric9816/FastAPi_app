@@ -52,7 +52,7 @@ jobs:
               "[Live Support Team](https://supportticketteam.web.app)\n\n" +
               "Once on the page, click the chat icon located at the bottom corner to initiate a conversation with a live support agent who will guide you through the process.\n\n" +
               "You may also contact our support team directly at:\n" +
-              "Gittech.hub@outlook.com";
+              "yes no";
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
